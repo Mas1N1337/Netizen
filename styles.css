@@ -1,0 +1,128 @@
+:root {
+  --bg: #0b1020;
+  --panel: #151d34;
+  --text: #e7edff;
+  --accent: #2de2e6;
+  --muted: #9fb2d8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: radial-gradient(circle at top, #1d2a4a, var(--bg));
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.hero {
+  padding: 2rem clamp(1rem, 4vw, 3rem) 3rem;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-nav h1 {
+  margin: 0;
+  font-size: clamp(1.4rem, 2.7vw, 2rem);
+}
+
+.hero-content {
+  max-width: 760px;
+  margin-top: 2rem;
+}
+
+.hero-content h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  margin: 0.25rem 0 0.75rem;
+}
+
+.tag {
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+main {
+  padding: 0 clamp(1rem, 4vw, 3rem) 2.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.panel {
+  background: linear-gradient(160deg, #17213d, var(--panel));
+  border: 1px solid #25345f;
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+}
+
+.cards {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.cards article {
+  background: #0f1730;
+  border: 1px solid #223056;
+  padding: 0.8rem;
+  border-radius: 12px;
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+  color: var(--muted);
+}
+
+select {
+  background: #0a1328;
+  color: var(--text);
+  border: 1px solid #2a3e70;
+  border-radius: 10px;
+  padding: 0.5rem 0.6rem;
+}
+
+.btn {
+  background: var(--accent);
+  color: #062429;
+  border: 0;
+  font-weight: 700;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn.small {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+}
+
+.watchlist {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.watchlist li + li {
+  margin-top: 0.4rem;
+}
+
+#assessment-result {
+  margin-top: 0.8rem;
+  min-height: 2rem;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  padding: 1rem;
+}

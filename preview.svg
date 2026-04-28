@@ -1,0 +1,47 @@
+<svg width="1200" height="780" viewBox="0 0 1200 780" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Netizen Watch UI preview mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d2a4a"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17213d"/>
+      <stop offset="100%" stop-color="#151d34"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="780" fill="url(#bg)"/>
+
+  <text x="70" y="70" fill="#e7edff" font-size="36" font-family="Arial, sans-serif" font-weight="700">Netizen Watch</text>
+  <rect x="930" y="38" width="200" height="44" rx="22" fill="#2de2e6"/>
+  <text x="970" y="66" fill="#062429" font-size="20" font-family="Arial, sans-serif" font-weight="700">Assessment</text>
+
+  <text x="70" y="120" fill="#2de2e6" font-size="21" font-family="Arial, sans-serif" font-weight="600">Empowering your business with cybersecurity</text>
+  <text x="70" y="170" fill="#e7edff" font-size="52" font-family="Arial, sans-serif" font-weight="700">Your live security command center.</text>
+  <text x="70" y="208" fill="#9fb2d8" font-size="22" font-family="Arial, sans-serif">Student-built prototype for risk awareness and action planning.</text>
+
+  <rect x="60" y="250" width="1080" height="160" rx="18" fill="url(#panel)" stroke="#25345f"/>
+  <text x="90" y="290" fill="#e7edff" font-size="30" font-family="Arial, sans-serif" font-weight="700">Core Services</text>
+
+  <rect x="90" y="310" width="320" height="80" rx="12" fill="#0f1730" stroke="#223056"/>
+  <rect x="440" y="310" width="320" height="80" rx="12" fill="#0f1730" stroke="#223056"/>
+  <rect x="790" y="310" width="320" height="80" rx="12" fill="#0f1730" stroke="#223056"/>
+  <text x="108" y="346" fill="#e7edff" font-size="20" font-family="Arial, sans-serif">Attack Surface Tracking</text>
+  <text x="458" y="346" fill="#e7edff" font-size="20" font-family="Arial, sans-serif">Phishing Readiness</text>
+  <text x="808" y="346" fill="#e7edff" font-size="20" font-family="Arial, sans-serif">Incident Guidance</text>
+
+  <rect x="60" y="430" width="700" height="290" rx="18" fill="url(#panel)" stroke="#25345f"/>
+  <text x="90" y="470" fill="#e7edff" font-size="30" font-family="Arial, sans-serif" font-weight="700">Quick Security Assessment</text>
+  <rect x="90" y="500" width="640" height="38" rx="8" fill="#0a1328" stroke="#2a3e70"/>
+  <rect x="90" y="552" width="640" height="38" rx="8" fill="#0a1328" stroke="#2a3e70"/>
+  <rect x="90" y="604" width="640" height="38" rx="8" fill="#0a1328" stroke="#2a3e70"/>
+  <rect x="90" y="657" width="260" height="42" rx="21" fill="#2de2e6"/>
+  <text x="116" y="684" fill="#062429" font-size="20" font-family="Arial, sans-serif" font-weight="700">Calculate Risk Level</text>
+
+  <rect x="780" y="430" width="360" height="290" rx="18" fill="url(#panel)" stroke="#25345f"/>
+  <text x="810" y="470" fill="#e7edff" font-size="30" font-family="Arial, sans-serif" font-weight="700">Watchlist Topics</text>
+  <text x="820" y="520" fill="#9fb2d8" font-size="19" font-family="Arial, sans-serif">• Credential stuffing on SaaS</text>
+  <text x="820" y="555" fill="#9fb2d8" font-size="19" font-family="Arial, sans-serif">• Invoice phishing campaigns</text>
+  <text x="820" y="590" fill="#9fb2d8" font-size="19" font-family="Arial, sans-serif">• Unpatched VPN appliances</text>
+  <text x="820" y="625" fill="#9fb2d8" font-size="19" font-family="Arial, sans-serif">• Fake IT helpdesk calls</text>
+</svg>
