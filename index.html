@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netizen Watch | Cybersecurity App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="top-nav">
+        <h1>Netizen Watch</h1>
+        <a href="#assessment" class="btn small">Start Assessment</a>
+      </nav>
+      <div class="hero-content">
+        <p class="tag">Empowering your business with cybersecurity</p>
+        <h2>Your live security command center.</h2>
+        <p>
+          This student-built Netizen Watch web app helps teams understand risk,
+          learn security fundamentals, and prioritize protection actions.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel" id="services">
+        <h3>Core Services</h3>
+        <div class="cards">
+          <article>
+            <h4>Attack Surface Tracking</h4>
+            <p>Monitor exposed domains, subdomains, and open services.</p>
+          </article>
+          <article>
+            <h4>Phishing Readiness</h4>
+            <p>Train employees to identify and report malicious emails.</p>
+          </article>
+          <article>
+            <h4>Incident Guidance</h4>
+            <p>Get clear first-response checklists when something goes wrong.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel" id="assessment">
+        <h3>Quick Security Assessment</h3>
+        <form id="risk-form">
+          <label>
+            Do you enforce MFA for all users?
+            <select name="mfa" required>
+              <option value="">Choose...</option>
+              <option value="yes">Yes</option>
+              <option value="partial">Partially</option>
+              <option value="no">No</option>
+            </select>
+          </label>
+
+          <label>
+            How often do you patch critical systems?
+            <select name="patching" required>
+              <option value="">Choose...</option>
+              <option value="weekly">Weekly</option>
+              <option value="monthly">Monthly</option>
+              <option value="rarely">Rarely</option>
+            </select>
+          </label>
+
+          <label>
+            Do you run staff cyber-awareness training?
+            <select name="training" required>
+              <option value="">Choose...</option>
+              <option value="yes">Yes</option>
+              <option value="sometimes">Sometimes</option>
+              <option value="no">No</option>
+            </select>
+          </label>
+
+          <button class="btn" type="submit">Calculate Risk Level</button>
+        </form>
+        <div id="assessment-result" aria-live="polite"></div>
+      </section>
+
+      <section class="panel">
+        <h3>Latest Watchlist Topics</h3>
+        <ul class="watchlist" id="watchlist"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built for the Codex Challenge • Netizen Watch student prototype</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

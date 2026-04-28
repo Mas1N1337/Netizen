@@ -1,11 +1,3 @@
-
-
-README.md
-README.md
-New
-+111
--0
-
 # Netizen Watch (Student Prototype)
 
 A lightweight web app prototype for the **Codex Challenge**.
@@ -59,23 +51,6 @@ Then visit:
 ```text
 http://127.0.0.1:4173
 ```
-
-## Add this project to GitHub
-
-If you want this README to show on GitHub, keep it at the repo root as `README.md` (already done in this project).
-
-Typical publish flow:
-
-```bash
-git init
-git add .
-git commit -m "Initial Netizen Watch prototype"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
-
-After pushing, GitHub automatically renders this README on the repository home page.
 
 ## How the assessment works
 
