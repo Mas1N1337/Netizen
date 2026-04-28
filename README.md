@@ -52,6 +52,29 @@ Then visit:
 http://127.0.0.1:4173
 ```
 
+## Visual preview
+
+Here is a static mock preview of the current UI layout:
+
+![Netizen Watch preview](preview.svg)
+
+## Add this project to GitHub
+
+If you want this README to show on GitHub, keep it at the repo root as `README.md` (already done in this project).
+
+Typical publish flow:
+
+```bash
+git init
+git add .
+git commit -m "Initial Netizen Watch prototype"
+git branch -M main
+git remote add origin https://github.com/<your-username>/<your-repo>.git
+git push -u origin main
+```
+
+After pushing, GitHub automatically renders this README on the repository home page.
+
 ## How the assessment works
 
 The form has 3 controls:
