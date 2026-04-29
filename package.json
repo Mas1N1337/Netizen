@@ -1,0 +1,1 @@
+{"name": "netizen", "version": "1.0.0", "description": "A Node.js web application", "main": "app.js", "scripts": {"start": "node app.js", "test": "echo \"Error: no test specified\" && exit 0"}, "keywords": [], "author": "", "license": "ISC"}

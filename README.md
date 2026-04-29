@@ -34,36 +34,22 @@ This prototype is designed to be:
 
 ## Run locally
 
-Use the local deploy helper script:
+Because this is a static app, you can open `index.html` directly or serve it with a tiny local server.
+
+### Option 1: open directly
+
+Open `index.html` in your browser.
+
+### Option 2: Python server (recommended)
 
 ```bash
-./deploy-local.sh start
-```
-
-Custom port:
-
-```bash
-./deploy-local.sh start 8080
-```
-
-Check status, logs, or stop:
-
-```bash
-./deploy-local.sh status
-./deploy-local.sh logs
-./deploy-local.sh stop
+python -m http.server 4173
 ```
 
 Then visit:
 
 ```text
 http://127.0.0.1:4173
-```
-
-You can still run the default Python command directly if preferred:
-
-```bash
-python -m http.server 4173
 ```
 
 ## Visual preview
@@ -91,13 +77,10 @@ After pushing, GitHub automatically renders this README on the repository home p
 
 ## How the assessment works
 
-The form has 6 controls:
+The form has 3 controls:
 - MFA enforcement
 - Patching frequency
 - Staff awareness training
-- Backup resilience
-- Endpoint protection coverage
-- Incident response plan readiness
 
 Each choice maps to a score. The app sums scores and displays:
 - **Low Risk**

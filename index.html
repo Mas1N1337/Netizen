@@ -74,36 +74,6 @@
             </select>
           </label>
 
-          <label>
-            Do you maintain offline or immutable backups?
-            <select name="backups" required>
-              <option value="">Choose...</option>
-              <option value="tested">Yes, tested regularly</option>
-              <option value="untested">Yes, but not tested</option>
-              <option value="none">No</option>
-            </select>
-          </label>
-
-          <label>
-            Is endpoint protection deployed on all managed devices?
-            <select name="endpoint" required>
-              <option value="">Choose...</option>
-              <option value="all">All devices</option>
-              <option value="most">Most devices</option>
-              <option value="few">Few or none</option>
-            </select>
-          </label>
-
-          <label>
-            Do you have an incident response plan with clear owners?
-            <select name="irplan" required>
-              <option value="">Choose...</option>
-              <option value="practiced">Yes, and we practice it</option>
-              <option value="documented">Yes, documented only</option>
-              <option value="none">No</option>
-            </select>
-          </label>
-
           <button class="btn" type="submit">Calculate Risk Level</button>
         </form>
         <div id="assessment-result" aria-live="polite"></div>
